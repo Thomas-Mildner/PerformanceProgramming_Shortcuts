@@ -1,5 +1,8 @@
 package de.thro.lombok;
 
+import de.thro.lombok.models.DataModel;
+import de.thro.lombok.models.LombokModel;
+
 public class LombokExample
 {
     public static void main(String[] args) throws Exception

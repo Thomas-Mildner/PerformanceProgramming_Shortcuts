@@ -4,7 +4,6 @@ public class BookmarksModel
 {
     private String TestString;
 
-
     public String getTestString()
     {
         return TestString;

@@ -4,6 +4,10 @@ public class BookmarksExample
 {
     public static void main(String[] args)
     {
+        /* F11 for Bookmarks */
+        /* SHIFT + F11  */
+        /* CTRL + SHIFT + Number */
+        /* CTRL + Number */
 
         /*Exercise: Add new Field to BookmarksModel - Add toString() Function to Model */
         var dataModel = new BookmarksModel();

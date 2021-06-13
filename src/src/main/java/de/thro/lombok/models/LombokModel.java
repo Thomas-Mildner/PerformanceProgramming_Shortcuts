@@ -1,4 +1,4 @@
-package de.thro.lombok;
+package de.thro.lombok.models;
 
 import lombok.*;
 
@@ -14,4 +14,6 @@ public class LombokModel
     private String description;
     private String longDescription;
     private boolean isActive;
+
+
 }

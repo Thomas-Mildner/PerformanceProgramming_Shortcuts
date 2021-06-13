@@ -1,4 +1,4 @@
-package de.thro.lombok;
+package de.thro.lombok.models;
 
 import java.util.Objects;
 
