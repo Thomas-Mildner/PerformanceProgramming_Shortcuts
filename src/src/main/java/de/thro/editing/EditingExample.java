@@ -1,4 +1,4 @@
-package editing;
+package de.thro.editing;
 
 public class EditingExample
 {

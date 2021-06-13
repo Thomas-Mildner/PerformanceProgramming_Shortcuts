@@ -1,4 +1,4 @@
-package search.replace;
+package de.thro.search.replace;
 
 public class SearchReplaceExample
 {

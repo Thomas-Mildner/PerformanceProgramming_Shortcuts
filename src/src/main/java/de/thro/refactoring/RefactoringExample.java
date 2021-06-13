@@ -1,4 +1,4 @@
-package refactoring;
+package de.thro.refactoring;
 
 public class RefactoringExample
 {

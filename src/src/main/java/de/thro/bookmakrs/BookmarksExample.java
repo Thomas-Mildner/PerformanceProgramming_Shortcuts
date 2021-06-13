@@ -1,4 +1,4 @@
-package bookmarks;
+package de.thro.bookmakrs;
 
 public class BookmarksExample
 {

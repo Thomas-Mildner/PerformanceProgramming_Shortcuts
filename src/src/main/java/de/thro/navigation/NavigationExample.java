@@ -1,4 +1,4 @@
-package navigation;
+package de.thro.navigation;
 
 public class NavigationExample
 {

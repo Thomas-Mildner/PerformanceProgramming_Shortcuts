@@ -1,4 +1,4 @@
-package debugging;
+package de.thro.debugging;
 
 public class DebugTest
 {
