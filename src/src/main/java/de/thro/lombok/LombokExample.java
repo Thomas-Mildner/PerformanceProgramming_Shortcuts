@@ -1,11 +1,8 @@
 package de.thro.lombok;
 
-
-import javax.xml.crypto.Data;
-
 public class LombokExample
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws Exception
     {
         var dataModel = new DataModel();
         dataModel.setModelId(1);

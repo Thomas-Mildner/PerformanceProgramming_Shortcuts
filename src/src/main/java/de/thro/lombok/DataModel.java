@@ -24,8 +24,10 @@ public class DataModel
         return description;
     }
 
-    public void setDescription(String description)
+    public void setDescription(String description) throws Exception
     {
+        if(description == null || description.isEmpty())
+            throw new Exception("Description is null or empty");
         this.description = description;
     }
 

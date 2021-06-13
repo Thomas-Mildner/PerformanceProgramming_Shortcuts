@@ -10,6 +10,7 @@ import lombok.*;
 public class LombokModel
 {
     private int modelId;
+    @NonNull
     private String description;
     private String longDescription;
     private boolean isActive;
