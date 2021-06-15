@@ -8,6 +8,7 @@ public class ChildClassB extends NavigationExample
     {
         super();
 
+        /* CTRL + Q --> Show Javadoc Comments*/
         /* CTRL + ALT + B --> Navigate to Implementation */
         testInterface.TestMethodDeclaration();
     }
