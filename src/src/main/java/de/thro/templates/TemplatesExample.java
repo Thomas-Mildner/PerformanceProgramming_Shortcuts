@@ -10,8 +10,6 @@ public class TemplatesExample
         /* ALT + F1 */
         /* Switch to different Views*/
 
-        /* Use CTRL + J
-         * customTemp */
 
 
         /* CTRL + ALT + Insert
@@ -31,10 +29,12 @@ public class TemplatesExample
 
         /* Live Templates
         CTRL + ALT + S
-
         */
+
+        /* Use CTRL + J
+         * customTemp */
+
     }
-    private int x = 0;
 
 }
 

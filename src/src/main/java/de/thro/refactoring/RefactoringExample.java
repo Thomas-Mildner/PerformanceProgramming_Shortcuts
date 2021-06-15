@@ -9,5 +9,8 @@ public class RefactoringExample
         /* Exercise: Extract Logic in Method*/
         var a = new TestA();
         a.printTest();
+
+        var b = new TestA();
+        b.printTest();
     }
 }
