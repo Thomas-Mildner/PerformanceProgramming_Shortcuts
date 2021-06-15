@@ -17,8 +17,24 @@ public class TemplatesExample
         /* CTRL + ALT + Insert
          * CustomTemplate */
 
-    }
 
+        /* Useful Default Live Templates*/
+        /*
+        psvm
+        sout
+        ifn
+        ifnn
+
+        fori
+        iter
+         */
+
+        /* Live Templates
+        CTRL + ALT + S
+
+        */
+    }
+    private int x = 0;
 
 }
 
