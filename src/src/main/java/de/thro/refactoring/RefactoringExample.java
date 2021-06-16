@@ -12,5 +12,17 @@ public class RefactoringExample
 
         var b = new TestA();
         b.printTest();
+
+
+        /* Exercise: Move WrongClass in wrongPackage to refactoring package */
+        /* Exercise: Rename wrong class to TestB --> Shift + F6*/
+        /* Exercise: Change Signature in testmethod*/
+    }
+
+    private static int test(int x)
+    {
+        /* Exercise: Extract i as  Field, Constant, Parameter --> CTRL + SHIFT + F / C / P */
+        var i = 0;
+        return i;
     }
 }

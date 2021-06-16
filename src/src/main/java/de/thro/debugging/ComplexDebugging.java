@@ -6,7 +6,7 @@ import de.thro.debugging.services.ComplexDebuggingFactory;
 public class ComplexDebugging
 {
 
-     public static void main(String[] args)
+    public static void main(String[] args) throws Exception
     {
         //region Conditional Debugging
         var customers = ComplexDebuggingFactory.generateTestData(100);
@@ -22,14 +22,29 @@ public class ComplexDebugging
         {
             /* CTRL + SHIFT + F8  --> View Breakpoints, ALT + ENTER (Exception)*/
             ComplexDebuggingFactory.ThrowException("Exception Message");
-        }
-        catch (Exception ex){
+        } catch (Exception ex)
+        {
             System.out.println(ex.getMessage().toString());
         }
         //endregion
 
-
+        /* Exercise: Install Plugin: Jump to Line*/
+        /* Debug next method and jump over exception*/
+        var result = criticalCodeToDebug();
     }
 
+    private static boolean criticalCodeToDebug() throws Exception
+    {
+        var methodExecutionSuccessful = true;
+        System.out.println("Method start");
+        System.out.println("Starting to enter critical code");
+
+        //Todo skip this part while debugging
+        methodExecutionSuccessful = false;
+
+        System.out.println("Method finished");
+        return methodExecutionSuccessful;
+
+    }
 
 }

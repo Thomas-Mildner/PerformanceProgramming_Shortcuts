@@ -9,12 +9,15 @@ public class NavigationExample implements NavigationInterface
     /* CTRL + SHIFT + Pfeiltasten --> Commands+ Markieren überspringen*/
     /* SHIFT + Home  oder SHIFT + END --> ganze Zeile markieren*/
 
-
-
     /* ALT + HOME  --> Show Package Root Classes */
-
-
     /* ALT + UP / DOWN --> Navigation zwischen Methoden --> Important */
+
+    /* CTRL + N --> Show Class */
+
+    /* CTRL + G --> Go to Line */
+    /* CTRL + E --> Last Files*/
+    /* CTRL + SHIFT + Backspace */
+
 
     public static void main(String[] args)
     {

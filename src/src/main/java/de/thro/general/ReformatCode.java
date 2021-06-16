@@ -9,12 +9,9 @@ public class ReformatCode
         /* CTRL + SHIFT + ALT + L  --> Reformat Settings*/
         /* Be careful with git changes*/
         /* CTRL + ALT + L --> Reformat Code */
-    }
+                          }
 
 
-    private static void test()
-    {
-        var x = 1;
-
-    }
+    private static void test() {
+        var x = 1; }
 }
