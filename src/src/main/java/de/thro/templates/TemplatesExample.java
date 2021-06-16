@@ -5,34 +5,43 @@ public class TemplatesExample
     public static void main(String[] args)
     {
         /* ALT + 1
-         * Switch to Project View */
+         * SWITCH TO PROJECT VIEW */
 
         /* ALT + F1 */
-        /* Switch to different Views*/
+        /* SWITCH TO DIFFERENT VIEWS*/
 
 
 
-        /* CTRL + ALT + Insert
-         * CustomTemplate */
+        /* CTRL + ALT + INSERT
+         * CUSTOMTEMPLATE */
 
 
-        /* Useful Default Live Templates*/
+        /* USEFUL DEFAULT LIVE TEMPLATES*/
         /*
-        psvm
-        sout
-        ifn
-        ifnn
+        PSVM
+        SOUT
+        IFN
+        IFNN
 
-        fori
-        iter
+        FORI
+        ITER
          */
 
-        /* Live Templates
-        CTRL + ALT + S
-        */
+        /* USE CTRL + J
+         * CUSTOMTEMP */
 
-        /* Use CTRL + J
-         * customTemp */
+        var resultOk = criticalCode(10, 2);
+        System.out.println(resultOk);
+        var errorOccur = criticalCode(10, 0);
+        System.out.println(errorOccur);
+
+    }
+
+    private static float criticalCode(int a, int b)
+    {
+        //Todo maybe there should be a try catch?
+        /*Exercise: Add TryCatch --> SHIFT + ALT + T*/
+        return a / b;
 
     }
 
