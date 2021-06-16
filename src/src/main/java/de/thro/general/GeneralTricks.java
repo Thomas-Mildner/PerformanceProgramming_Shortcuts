@@ -7,6 +7,9 @@ public class GeneralTricks
         /*IDE Settings
         * ViewModes:
         * Close all Windows: CTRL + SHIFT + F12*/
+        /* ALT + F1 --> Show File in X*/
+
+        /* Split Window & Unsplit Window */
 
 
 

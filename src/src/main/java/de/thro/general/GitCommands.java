@@ -8,6 +8,8 @@ public class GitCommands
         /* CTRL + SHIT + K --> Git Push Changes öffnen */
         /* CTRL + ALT + Z --> Rollback Changes */
 
+        /* ALT + 9 --> Show Diffs in Window*/
+
         /* ALT + `   --> Show VCS popup */
 
     }
