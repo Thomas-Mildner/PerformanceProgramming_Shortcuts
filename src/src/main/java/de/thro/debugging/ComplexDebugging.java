@@ -21,7 +21,7 @@ public class ComplexDebugging
         try
         {
             /* CTRL + SHIFT + F8  --> View Breakpoints, ALT + ENTER (Exception)*/
-            ComplexDebuggingFactory.ThrowException("Exception Message");
+            ComplexDebuggingFactory.throwException("Exception Message");
         } catch (Exception ex)
         {
             System.out.println(ex.getMessage().toString());

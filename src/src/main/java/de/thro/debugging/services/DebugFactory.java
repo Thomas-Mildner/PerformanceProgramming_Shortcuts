@@ -10,7 +10,7 @@ public class DebugFactory
         return x;
     }
 
-    public static void Count(int max)
+    public static void count(int max)
     {
         for (int i = 0; i < max; i++)
         {

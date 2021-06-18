@@ -54,7 +54,7 @@ public class NavigationExample implements NavigationInterface
     }
 
     @Override
-    public void TestMethodDeclaration()
+    public void testMethodDeclaration()
     {
         System.out.println("Test Implementation");
     }

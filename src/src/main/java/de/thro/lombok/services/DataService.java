@@ -7,19 +7,19 @@ import java.io.IOException;
 public class DataService implements LombokExampleDefinition
 {
     @Override
-    public void SynchronizeExample()
+    public void synchronizeExample()
     {
 
     }
 
     @Override
-    public void LoggingExample()
+    public void loggingExample()
     {
 
     }
 
     @Override
-    public void CleanUpExample()
+    public void cleanUpExample()
     {
         try(var stream = DataService.class.getResourceAsStream("/demo.txt"))
         {

@@ -19,7 +19,7 @@ public class ComplexDebuggingFactory
         return customers;
     }
 
-    public static void ThrowException(String exceptionMessage) throws ComplexDebuggingException
+    public static void throwException(String exceptionMessage) throws ComplexDebuggingException
     {
         throw new ComplexDebuggingException(exceptionMessage);
     }

@@ -6,5 +6,5 @@ public interface NavigationInterface
     /**
      * This is a clever comment
      */
-    void TestMethodDeclaration();
+    void testMethodDeclaration();
 }

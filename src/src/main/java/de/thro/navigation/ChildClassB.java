@@ -10,6 +10,6 @@ public class ChildClassB extends NavigationExample
 
         /* CTRL + Q --> Show Javadoc Comments*/
         /* CTRL + ALT + B --> Navigate to Implementation */
-        testInterface.TestMethodDeclaration();
+        testInterface.testMethodDeclaration();
     }
 }

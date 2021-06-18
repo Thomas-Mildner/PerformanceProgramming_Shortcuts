@@ -20,7 +20,7 @@ public class DebugTest
         var result = DebugFactory.TestMethodBreakpoint();
 
         //region Step In - Step over
-        DebugFactory.Count(10);
+        DebugFactory.count(10);
         System.out.println("Count completed");
 
         //endregion
