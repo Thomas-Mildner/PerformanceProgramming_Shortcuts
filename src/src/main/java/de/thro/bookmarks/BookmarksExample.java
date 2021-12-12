@@ -8,6 +8,7 @@ public class BookmarksExample
         /* SHIFT + F11  */
         /* CTRL + SHIFT + Number */
         /* CTRL + Number */
+        /* ALT + 2 */
 
         /*Exercise: Add new Field to BookmarksModel - Add toString() Function to Model */
         var dataModel = new BookmarksModel();

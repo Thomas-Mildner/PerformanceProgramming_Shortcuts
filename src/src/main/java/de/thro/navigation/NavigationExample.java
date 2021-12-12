@@ -12,6 +12,9 @@ public class NavigationExample implements NavigationInterface
     /* ALT + HOME  --> Show Package Root Classes */
     /* ALT + UP / DOWN --> Navigation zwischen Methoden --> Important */
 
+    /*CTRL + ALT + Numpad -   oder +    --> Einklappen von Methoden */
+    /*CTRL + SHIFT + Numpad -    --> alles einklappen */
+
     /* CTRL + N --> Show Class */
 
     /* CTRL + G --> Go to Line */
@@ -21,7 +24,8 @@ public class NavigationExample implements NavigationInterface
 
     public static void main(String[] args)
     {
-
+        var x = 1;
+        System.out.println("Test");
     }
 
     @Override
@@ -32,6 +36,7 @@ public class NavigationExample implements NavigationInterface
 
     public NavigationExample()
     {
+        var ix = 12;
         //base constructor call
     }
 
