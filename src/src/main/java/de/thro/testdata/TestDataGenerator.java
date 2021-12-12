@@ -1,6 +1,9 @@
 package de.thro.testdata;
 
-import com.github.javafaker.Faker;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import java.time.temporal.Temporal;
+import java.util.Date;
 
 public class TestDataGenerator
 {
@@ -14,7 +17,14 @@ public class TestDataGenerator
 
         /* Exercise - Generate Customer Data with Faker*/
 
+    }
 
+    private static int CalculateDaysToBirthday (Date birthday){
+
+        LocalDate today = LocalDate.now();
+        long diffDays = ChronoUnit.DAYS.between((Temporal) birthday, today);
+
+        return Math.abs((int)diffDays);
     }
 
 
@@ -24,6 +34,7 @@ public class TestDataGenerator
         private String lastName;
         private String address;
         private String email;
+        private Date birthday;
 
         public Customer()
         {

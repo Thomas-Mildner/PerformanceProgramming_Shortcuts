@@ -20,7 +20,7 @@ public class ComplexDebugging
         //region Exception Debugging
         try
         {
-            /* CTRL + SHIFT + F8  --> View Breakpoints, ALT + ENTER (Exception)*/
+            /* CTRL + SHIFT + F8  --> View Breakpoints, ALT + Insert (Exception)*/
             ComplexDebuggingFactory.throwException("Exception Message");
         } catch (Exception ex)
         {

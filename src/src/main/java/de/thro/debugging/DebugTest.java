@@ -1,7 +1,7 @@
 package de.thro.debugging;
 
 import de.thro.debugging.services.DebugFactory;
-
+// Show all Breakpoints --> CTRL + SHIFT + F8
 /* ALT + 5 --> Show Debug Window */
 /* F9 --> Choose Debug Configuration */
 /* SHIFT + F9  --> Start Debugging*/
@@ -15,8 +15,9 @@ public class DebugTest
         /*CTRL + F8 --> add breakpoint*/
         System.out.println("Test");
 
-        //add Fieldwatch
+        //add Fieldwatch --> Go to Definition and add Breakpoint
         isReady = true;
+        //add method Watch --> Go to Method Definition and add Breakpoint
         var result = DebugFactory.TestMethodBreakpoint();
 
         //region Step In - Step over
@@ -24,6 +25,9 @@ public class DebugTest
         System.out.println("Count completed");
 
         //endregion
+
+        //CTRL + SHIFT + F8 --> Move to Group (Naming a specific bug)
+
     }
 
 
